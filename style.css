@@ -1,0 +1,413 @@
+body{
+    background: url(/Encriptador/imagenes/w4.png);
+}
+main{
+    padding-top: 40px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 640px;
+    margin: auto;
+    background-color: #78a5ee;
+    border: 5px solid #212A55;
+    border-radius: 30px;
+    box-shadow: 12px 12px 12px 12px rgba(144, 21, 244, 0.24);
+}
+
+.encabezado{
+    background-color: #f3f4f5;
+    border: 4px solid #212A55;
+    width: 90%;
+    margin: 15px auto;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.encabezado h1{
+    font-family: 'karla';
+    font-weight:500;
+    font-size: 42px;
+    text-align: center;
+    padding-right: 10px;
+}
+.encabezado img{
+    width: 50px;
+    padding: 10px 0;
+}
+
+.cuadros-de-texto{
+    margin: auto;
+    width: 95%;
+    display: flex;
+    gap: 20px;
+    height: 75%;
+    
+}
+
+.text{
+    width:100%;
+    background-color: #f3f4f5;
+    resize: none;
+    border: 4px solid #212A55;
+    border-radius:20px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 10px;
+    padding-bottom: 1rem;
+    font-size: 16px;
+    font-family: 'karla';
+    font-weight: bold;
+    color: #000000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+textarea{
+    outline:0px; 
+    -webkit-appearance:none;
+}
+
+.botones{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: 'karla';
+    font-weight: 600;
+    font-size: 18px;
+    padding: 20px;
+    
+}
+
+.btn{
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: #f3f4f5;
+    color: #000000;
+    border: 3px solid #212A55;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: .3s ease-in-out;
+}
+.btn:hover{
+    background-color: #0076d6;
+    color: #ffffff;
+    padding: 9px 9px;
+}
+
+.aviso{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    color: #ffffff;
+    gap: 5px;
+    font-size: 14px;
+    font-family: 'karla';
+    justify-content: center;
+    padding: 5px 0;
+}
+.aviso p {
+    padding-top: 15px;
+}
+.aviso i {
+    padding-top: 15px;
+}
+
+footer{
+    padding-top: 25px;
+}
+.pie-pagina{
+    display: flex;
+    font-family: 'karla';
+    font-size: 18px;
+    color: white;
+    padding: 10px; 
+    justify-content: center;
+    gap: 10px;
+    background-color: #773ad37c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); ;
+}
+
+.pie-pagina a{
+    color: white;
+}
+
+.pie-pagina i{
+    transition: .4s ease-in-out;
+    -webkit-transition: .4s ease-in-out;
+    -moz-transition: .4s ease-in-out;
+    -ms-transition: .4s ease-in-out;
+    -o-transition: .4s ease-in-out;
+}
+
+.pie-pagina i:hover{
+    font-size: 20px;
+    
+}
+
+@media (max-width:780px){
+
+    .container{
+        width: 90%;
+        height: 720px;
+    }
+
+    .encabezado h1{
+        font-size: 32px;
+    }
+
+    .encabezado img{
+        width: 40px;
+    }
+    .cuadros-de-texto{
+        margin: auto;
+        display: block;
+        padding-right: 5px;
+        
+    }
+
+    .text{
+        width:90%;
+        height: 45%;
+        background-color: #f3f4f5;
+        resize: none;
+        border: 4px solid #212A55;
+        border-radius:20px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 10px;
+        font-size: 16px;
+        font-family: 'karla';
+        font-weight: bold;
+        color: #000000;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .aviso{
+        display: flex;
+        width: 90%;
+        margin: auto;
+        color: #ffffff;
+        gap: 5px;
+        font-size: 10px;
+        font-family: 'karla';
+        justify-content: center;
+    }
+
+
+    .botones{
+        width: 30%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        font-family: 'karla';
+        font-weight: 600;
+        font-size: 17px;
+        padding: 4px;
+        
+    }
+}
+
+@media (max-width:620px){
+
+    .encabezado h1{
+        font-size: 24px;
+    }
+
+    .encabezado img{
+        width: 40px;
+    }
+    .cuadros-de-texto{
+        margin: auto;
+        display: block;
+        padding-right: 5px;
+    }
+
+    .text{
+        width:85%;
+        height: 45%;
+        background-color: #f3f4f5;
+        resize: none;
+        border: 4px solid #212A55;
+        border-radius:20px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 10px;
+        font-size: 16px;
+        font-family: 'karla';
+        font-weight: bold;
+        color: #000000;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .botones{
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    .btn{
+        text-decoration: none;
+        padding: 10px 10px;
+        background-color: #f3f4f5;
+        color: #000000;
+        border: 3px solid #212A55;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        transition: .3s ease-in-out;
+    }
+}
+
+@media (max-width:480px){
+
+    .encabezado h1{
+        font-size: 20px;
+    }
+
+    .encabezado img{
+        width: 30px;
+    }
+
+    .text{
+        width:80%;
+        height: 45%;
+        background-color: #f3f4f5;
+        resize: none;
+        border: 4px solid #212A55;
+        border-radius:20px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 10px;
+        font-size: 16px;
+        font-family: 'karla';
+        font-weight: bold;
+        color: #000000;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+}
+@media (max-width:380px){
+
+    .encabezado h1{
+        font-size: 18px;
+    }
+
+    .encabezado img{
+        width: 30px;
+    }
+     .cuadros-de-texto{
+        margin: auto;
+        display: block;
+        padding-right: 5px;
+        
+    }
+
+    .text{
+        width:78%;
+        height: 45%;
+        background-color: #f3f4f5;
+        resize: none;
+        border: 4px solid #212A55;
+        border-radius:20px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 10px;
+        font-size: 16px;
+        font-family: 'karla';
+        font-weight: bold;
+        color: #000000;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .botones{
+        width: 30%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        font-family: 'karla';
+        font-weight: 600;
+        font-size: 10px;
+        padding: 4px;
+        
+    }
+}
+
+@media (max-width:320px){
+
+    .encabezado h1{
+        font-size: 16px;
+    }
+
+    .encabezado img{
+        width: 30px;
+    }
+     .cuadros-de-texto{
+        margin: auto;
+        display: block;
+        padding-right: 5px;
+        
+    }
+
+    .text{
+        width:75%;
+        height: 45%;
+        background-color: #f3f4f5;
+        resize: none;
+        border: 4px solid #212A55;
+        border-radius:20px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 10px;
+        font-size: 16px;
+        font-family: 'karla';
+        font-weight: bold;
+        color: #000000;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .botones{
+        width: 30%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        font-family: 'karla';
+        font-weight: 600;
+        font-size: 9px;
+        padding: 4px;
+        
+    }
+}
+
+@media (max-width:280px) {
+    .text{
+        width:72%;
+        height: 45%;
+        background-color: #f3f4f5;
+        resize: none;
+        border: 4px solid #212A55;
+        border-radius:20px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 10px;
+        font-size: 16px;
+        font-family: 'karla';
+        font-weight: bold;
+        color: #000000;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .aviso{
+        font-size: 9px;
+    }
+}
